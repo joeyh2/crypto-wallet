@@ -146,7 +146,7 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-st.sidebar.write(get_balance(account.address))
+st.sidebar.write(get_balance(w3, account.address))
 
 ##########################################
 
@@ -237,7 +237,7 @@ st.sidebar.markdown("## Total Wage in Ether")
 # Calculate total `wage` for the candidate by multiplying the candidate’s hourly
 # rate from the candidate database (`candidate_database[person][3]`) by the
 # value of the `hours` variable
-wage = (candidate_database[person][3])*(hours)
+wage = (candidate_database[person][3]) * hours
 
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
