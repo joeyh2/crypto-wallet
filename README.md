@@ -1,13 +1,13 @@
 # Crypto Wallet
 ## Using Python and Streamlit
 
-![streamlit](Images/streamlit_validate.jpg)
+![streamlit](Images/streamlit_validate.png)
 
 
-![transaction](Images/Transaction.jpg)
+![transaction](Images/Transaction.png)
 
 
-![receiver](Images/receiver.jpg)
+![receiver](Images/receiver.png)
 
 
-![my_new_balance](Images/my_new_balance.jpg)
+![my_new_balance](Images/my_new_balance.png)
